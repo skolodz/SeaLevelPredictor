@@ -1,0 +1,15 @@
+The elevation data is sources from the United States Geological Survey (USGS).
+  - These data files are downloaded when the fetchregion.m function file is called.
+  - The data are downloaded in .tif file format. The MatLab functions will read them into matrices.
+  - Each file covers a 1x1 degree of area. Here is a quick explination:
+    https://www.usgs.gov/special-topics/significant-topographic-changes-in-the-united-states/science/1x1-degree-tiles
+
+The sea level rise prediction data is sources from the National Oceanic and Atmospheric Administration (NOAA).
+  (https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-data.html)
+  - The data file in .csv format.
+  - The file contains predictions of different specific regions for up to the year 2150.
+  - The file includes of those regions:
+    - Name (e.g. Boston, Honolulu)
+    - Geographical coordinate: latitude & longitude
+    - Senarios: sea level rise will be different for different senarios of greenhouse gas emissions.
+    - Predictions values for every ten years, up to 2150.
